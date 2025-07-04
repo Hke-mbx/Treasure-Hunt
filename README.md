@@ -1,1 +1,64 @@
 # Treasure-Hunt
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>单脚跳迷宫</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+        }
+        .rules {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+            line-height: 1.5;
+        }
+        .highlight {
+            font-weight: bold;
+            color: #e74c3c;
+        }
+        .time-limit {
+            font-size: 1.2em;
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #f8d7da;
+            border-radius: 5px;
+            color: #721c24;
+        }
+    </style>
+</head>
+<body>
+    <h1>⭐单脚跳迷宫</h1>
+    
+    <div class="rules">
+        <ul>
+            <li>⭐你只能使用"单脚跳"的方式前进，一次跳一格。</li>
+            <li>某些格子是<span class="highlight">陷阱</span>。然后参赛者只能试着"跳"，每踩一格必须蹲跳过去，但不知道哪些格子是"陷阱"。</li>
+            <li>走错了就<span class="highlight">"退回起点"</span>，重新跳。直到整个小组全员通过</li>
+        </ul>
+        
+        <p>🎊玩法：两个两个一起跳 两个带头 两个跟在后面，不能走斜只能走横和直</p>
+        
+        <div class="time-limit">
+            限时-4分钟
+        </div>
+    </div>
+</body>
+</html>
